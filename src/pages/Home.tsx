@@ -16,7 +16,7 @@ export default function Home() {
     setLoading(true);
     fetch("https://fakestoreapi.com/products")
       .then((res) => {
-        if (!res.ok) throw new Error("Network error");
+        if (!res.ok) throw new Error("Network error. We ran into a problem.");
         return res.json();
       })
       .then((data) => setProducts(data))
@@ -25,7 +25,6 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
-    // fetch categories
     fetch("https://fakestoreapi.com/products/categories")
       .then((res) => res.json())
       .then((c) => setCategories(c))

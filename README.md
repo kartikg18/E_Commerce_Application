@@ -1,6 +1,6 @@
 
 
-This is a minimal React + Vite app implementing the common requirements from the Sembark frontend assignment: product listing, product details, add-to-cart (in-memory), cart sidebar, routing and basic styling.
+This is a minimal React + Vite app implementing the common requirements: product listing, product details, add-to-cart (in-memory), cart sidebar, routing and basic styling.
 
 ## What we implemented
 
